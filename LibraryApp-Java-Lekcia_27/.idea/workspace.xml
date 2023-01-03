@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="72ab1684-ba77-446c-8c88-d77f075200dc" name="Changes" comment="finished lecture 26">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UI/pages/Rentals/PastDueRentalsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UI/pages/Rentals/PastDueRentalsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/core/entities/RentalEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/core/entities/RentalEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/infrastructure/data/repositories/MemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/infrastructure/data/repositories/MemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/infrastructure/data/repositories/QueueItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/infrastructure/data/repositories/QueueItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/infrastructure/data/repositories/RentalEntryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/infrastructure/data/repositories/RentalEntryRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lekcia_26" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/UI/UIElements/Menu.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/UI/UIElements/Option.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/core/base/EntityBase.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/core/entities/Book.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/core/entities/Dvd.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/core/entities/Title.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/infrastructure/data/repositories/BookRepository.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/infrastructure/data/repositories/DvdRepository.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FiiYlWIGTHLq0g00VBbZrTESzF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="core.abstractions" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UI.Main" />
+      <module name="LibraryApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="UI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="72ab1684-ba77-446c-8c88-d77f075200dc" name="Changes" comment="" />
+      <created>1664981356856</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664981356856</updated>
+      <workItem from="1664981358244" duration="795000" />
+      <workItem from="1664987632727" duration="35000" />
+      <workItem from="1665580701929" duration="3651000" />
+      <workItem from="1665657306611" duration="15000" />
+      <workItem from="1666616922870" duration="5974000" />
+      <workItem from="1666712059935" duration="916000" />
+      <workItem from="1666876068394" duration="21466000" />
+      <workItem from="1666959246321" duration="14145000" />
+      <workItem from="1667033749391" duration="23270000" />
+      <workItem from="1667145985403" duration="19304000" />
+      <workItem from="1667205024531" duration="28565000" />
+      <workItem from="1667293755644" duration="23126000" />
+      <workItem from="1667391996981" duration="2214000" />
+      <workItem from="1667408586449" duration="2369000" />
+    </task>
+    <task id="LOCAL-00001" summary="init commit">
+      <created>1666886884379</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666886884379</updated>
+    </task>
+    <task id="LOCAL-00002" summary="save point, resolved trouble with stack and hash">
+      <created>1666888235920</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1666888235920</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finished lektion 15">
+      <created>1666893165149</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666893165149</updated>
+    </task>
+    <task id="LOCAL-00004" summary="finished lecture 17">
+      <created>1666988355632</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666988355632</updated>
+    </task>
+    <task id="LOCAL-00005" summary="finished lecture 18">
+      <created>1666993087239</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666993087239</updated>
+    </task>
+    <task id="LOCAL-00006" summary="finished lecture 19">
+      <created>1667039191725</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667039191725</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finished lecture 20">
+      <created>1667068203305</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667068203305</updated>
+    </task>
+    <task id="LOCAL-00008" summary="finished lecture 21">
+      <created>1667071011006</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667071011006</updated>
+    </task>
+    <task id="LOCAL-00009" summary="lecture 22 app using book and dvd tables">
+      <created>1667294794350</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667294794350</updated>
+    </task>
+    <task id="LOCAL-00010" summary="finished lecture 22">
+      <created>1667301092142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667301092142</updated>
+    </task>
+    <task id="LOCAL-00011" summary="finished lecture 23">
+      <created>1667325844061</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667325844061</updated>
+    </task>
+    <task id="LOCAL-00012" summary="finished lecture 24">
+      <created>1667330411165</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667330411165</updated>
+    </task>
+    <task id="LOCAL-00013" summary="finished lecture 25">
+      <created>1667330974121</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667330974122</updated>
+    </task>
+    <task id="LOCAL-00014" summary="finished lecture 26">
+      <created>1667409721428</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667409721428</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init commit" />
+    <MESSAGE value="save point, resolved trouble with stack and hash" />
+    <MESSAGE value="finished lektion 15" />
+    <MESSAGE value="finished lecture 17" />
+    <MESSAGE value="finished lecture 18" />
+    <MESSAGE value="finished lecture 19" />
+    <MESSAGE value="finished lecture 20" />
+    <MESSAGE value="finished lecture 21" />
+    <MESSAGE value="lecture 22 app using book and dvd tables" />
+    <MESSAGE value="finished lecture 22" />
+    <MESSAGE value="finished lecture 23" />
+    <MESSAGE value="finished lecture 24" />
+    <MESSAGE value="finished lecture 25" />
+    <MESSAGE value="finished lecture 26" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lecture 26" />
+  </component>
+</project>
